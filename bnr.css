@@ -1,0 +1,41 @@
+.card-b{
+    padding-top: 50px;
+    background-color: #ffffff;
+    height: fit-content;
+}
+.card-b-body
+{
+    color: #ffffff;
+    background-color: #0D28A6;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+}
+
+.card-b-title
+{
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.card-text
+{
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: large;
+}
+.btn-sewa2 {
+    background-color: #5cb85f;
+    border-radius: 5px;
+    height: 50px;
+    color: white;
+  
+  }
+.btn-sewa2:hover {
+    background-color: #3d7b3f;
+    color: #ffffff;
+}  
