@@ -1,3 +1,4 @@
+AOS.init();
 document.addEventListener('DOMContentLoaded', function () {
     var owlCarousel = $('.owl-carousel');
     owlCarousel.owlCarousel({
@@ -6,14 +7,8 @@ document.addEventListener('DOMContentLoaded', function () {
       margin: 10,
       nav: false,
       autoplay: true,
-      autoplayTimeout: 3000,
+      autoplayTimeout: 2000,
       autoplayHoverPause: true,
-      dots: false,
-      responsive: {
-        0: { items: 1 },
-        600: { items: 2 },
-        1000: { items: 2 }
-      }
     });
   
     var prevButton = $('.prev-button');
